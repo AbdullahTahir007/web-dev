@@ -1,0 +1,87 @@
+body{
+    margin:0px
+}
+#top{
+    height:25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.hero{
+    width: 1260px;
+    height: 600px;
+    top: 134px; 
+    border: 2px solid black;
+}
+#hero-heading{
+    width: 577px;
+    height: 173px;
+    top: 237px;
+    left: 100px;
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 64px;
+    leading-trim: Cap height;
+    line-height: 64px;
+    letter-spacing: 0%;
+    position: absolute;
+
+}
+
+#hero-desc{
+    position: absolute;
+    width: 545px;
+    height: 33px;
+    top: 442px;
+    left: 100px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: Cap height;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+#shop-now{
+    position:absolute;
+    width: 210px;
+    height: 52px;
+    top: 507px;
+    left: 100px;
+    gap: 12px;
+    border-radius: 62px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    background-color: black;
+    color: white;
+
+}
+
+#hero-img{
+    width: 1440px;
+    height: 663px;
+    top: 134px;
+    position:absolute;
+}

@@ -1,4 +1,4 @@
-#top{
+/* #top{
     background-color: black;
     color: white;
     text-align: center;
@@ -32,4 +32,65 @@
   td{
     text-align: center;
   }
-  
+   */
+
+   /* flex box */
+   body{
+    margin: 0px;
+   }
+   .container{
+    border: black 6px solid;
+    display: flex;
+    /* height: 800px; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    /* gap: 20px 20px */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* align-content: center; */
+   }
+
+   .flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+   }
+
+   .item-1{
+    background-color: brown;
+    /* order:1         Use to define order of items appearing in main axis. By defalt is 0 */
+   }
+   .item-2{
+    background-color: green;
+    /* flex-basis: 200px; Use to define size of flex item. By defalt auto value according to text size */
+    /* flex-grow: 1; */
+   }
+   .item-3{
+    background-color: red;
+
+   }
+   .item-4{
+    background-color: yellow;
+   }
+   .item-5{
+    background-color: pink;
+    /* flex-grow: 1;          Use to get all available space  */
+   }
+   .item-6{
+    background-color: orange;
+    /* flex-shrink: 0;  Use to coontrol shrinking of flex items. By defalt is 1. */
+   }
+   .item-7{
+    background-color:grey;
+    /* align-self: center;   Use to align items on vertical aka cross-axix */
+   }
+   .item-8{
+    background-color:blueviolet;
+   }
+   .item-9{
+    background-color:aqua;
+   }
